@@ -1,19 +1,19 @@
-# IXXX-NomDuModule
-Module IXXX – Description du module.
+# I143-Implanter-un-systeme-de-sauvegarde-et-de-restauration
+Module 143 – Implanter un système de sauvegarde et de restauration
 
-https://etml-inf.github.io/IXXX-NomDuModule/
+https://etml-inf.github.io/I143-Implanter-un-systeme-de-sauvegarde-et-de-restauration/
 
 # Organisation du module
 
-Le module se déroulera sur **X semaines**.
+Le module se déroulera sur **8 semaines**.
 
 | **Semaine** | **Contenu** | **Liens théorie et exercices** |
 |-------------|-------------|-------------------------------|
-| **1** | | |
-| **2** | | |
-| **3** | | |
-| **4** | | |
-| **5** | | |
-| **6** | | |
-| **7** | | |
-| **8** | | |
+| **1** | **Introduction aux concepts de sauvegarde**<br>• Pourquoi la sauvegarde est essentielle<br>• Cas concrets d'incidents (ransomware, panne matériel, catastrophe naturelle)<br>• Les types de sauvegarde : complète, différentielle, incrémentale<br>• Différence avec l'archivage<br>• La méthode 3-2-1<br>🛠️ **P_Backup Partie 1** : Mettre en place un serveur de fichiers + Shadow Copy + script Robocopy | [S01-I143.html](https://etml-inf.github.io/I143-Implanter-un-systeme-de-sauvegarde-et-de-restauration/S01-I143-Introduction-Concepts-Sauvegarde.html)<br><br>[E-143-Ex01-Robocopy.pdf](https://etml-inf.github.io/I143-Implanter-un-systeme-de-sauvegarde-et-de-restauration/exercices/E-143-Ex01-Robocopy.pdf) |
+| **2** | **Analyse des besoins et conditions cadres**<br>• Qu'est-ce que l'on sauvegarde ? Volumétrie, rétention<br>• Conditions cadres : RGPD, LPD/nLPD, Cloud Act<br>• Contraintes techniques (bande passante, stockage, compatibilité)<br>• Évaluation des risques et heat map<br>🛠️ **P_Backup Partie 2** : Analyser les besoins de PWNED | [S02-I143.html](https://etml-inf.github.io/I143-Implanter-un-systeme-de-sauvegarde-et-de-restauration/S02-I143-Analyse-Besoins-Conditions-Cadres.html) |
+| **3** | **Élaboration d'un concept de sauvegarde et restauration**<br>• Élaboration du concept (assets, criticité, RTO/RPO)<br>• Introduction au DRP (Disaster Recovery Plan)<br>• Conception technique : NAS, SAN, iSCSI, hyperconvergence<br>• Sauvegarde cloud avec rClone<br>• Outils : Robocopy, Rsync, Shadow Copy<br>🛠️ **P_Backup Partie 3** : Élaborer la stratégie backup/restore de PWNED | [S03-I143.html](https://etml-inf.github.io/I143-Implanter-un-systeme-de-sauvegarde-et-de-restauration/S03-I143-Elaboration-Concept-DRP.html)<br><br>[S-143-Support-DRP-101.pdf](https://etml-inf.github.io/I143-Implanter-un-systeme-de-sauvegarde-et-de-restauration/support/S-143-Support-DRP-101.pdf) |
+| **4** | **Réalisation**<br>⚠️ **TEST TS1** sur les semaines 1-2-3<br>🛠️ **P_Backup Partie 4** : Installation et configuration de Veeam Community Edition | [S04-I143.html](https://etml-inf.github.io/I143-Implanter-un-systeme-de-sauvegarde-et-de-restauration/S04-I143-Realisation.html) |
+| **5** | **Validation et tests**<br>• Simulation d'une restauration (perte de fichiers, ransomware)<br>• Test d'intégrité des sauvegardes<br>• Calcul des délais RPO / RTO<br>🛠️ **P_Backup Partie 5** : Simulation, tests, délais RPO/RTO, rendu | [S05-I143.html](https://etml-inf.github.io/I143-Implanter-un-systeme-de-sauvegarde-et-de-restauration/S05-I143-Validation-Tests.html) |
+| **6** | **Optimisation, DRP et Documentation**<br>• Réduction des fenêtres de sauvegarde<br>• Monitoring et alertes<br>• Documentation maintenance/exploitation et utilisateur<br>• DRP : validation et maintenance<br>🛠️ **P_Backup Partie 6** : Installation Veeam ONE CE + configuration du monitoring | [S06-I143.html](https://etml-inf.github.io/I143-Implanter-un-systeme-de-sauvegarde-et-de-restauration/S06-I143-Optimisation-DRP-Documentation.html) |
+| **7** | **Présentation des solutions du marché**<br>• Solutions commerciales : Veeam, Acronis, Arctera BackupExec, Synology<br>• Acteurs majeurs du cloud : AWS, Azure, Google Cloud, Backblaze<br>• Outils open source : Rsync, rClone, Duplicati<br>🛠️ **P_Backup** : Terminer le projet | [S07-I143.html](https://etml-inf.github.io/I143-Implanter-un-systeme-de-sauvegarde-et-de-restauration/S07-I143-Solutions-Marche.html) |
+| **8** | **Mise en production**<br>• Planification des mises à jour<br>• Contrôles réguliers et surveillance automatisée<br>• Transmission de la documentation<br>🛠️ **P_Backup** : Rendu final – toutes les parties | [S08-I143.html](https://etml-inf.github.io/I143-Implanter-un-systeme-de-sauvegarde-et-de-restauration/S08-I143-Mise-en-Production.html) |

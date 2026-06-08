@@ -3,9 +3,21 @@
 *.iso
 *.code-workspace
 
-# Claude / Superpowers
+# Outils de développement / agents locaux
 docs/superpowers/
 .claude/
+.aider*
+.cursor/
+*.local.json
 
-# Generated files
+# Fichiers générés automatiquement
 b-UnitesEnseignement/Exercices/index.html
+b-UnitesEnseignement/Presentations/index.html
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
